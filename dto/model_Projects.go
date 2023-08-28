@@ -9,7 +9,7 @@ type Projects struct {
     Status string `json:"status" validate:"required"`
     Client string `json:"client" validate:"required"`
     Budget float64 `json:"budget" validate:"required"`
-    TeamMembers  `json:"teamMembers" validate:"required"`
-    Attachments  `json:"attachments" validate:"required"`
+    TeamMembers int  `json:"teamMembers" validate:"required"`
+    Attachments string `json:"attachments" validate:"required"`
     }
 
